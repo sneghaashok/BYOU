@@ -1,0 +1,662 @@
+<?php 
+  session_start(); 
+  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  
+  <title>bYOU | Home</title>
+
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="plugins/cubeportfolio/css/cubeportfolio.min.css">
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/cfbb7eefe6.js" crossorigin="anonymous"></script>
+  <!-- boxed bg -->
+  <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
+  <!-- template skin -->
+  <link id="t-colors" href="color/default.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <div id="wrapper">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="top-area">
+        <div class="container">    
+        </div>
+      </div>
+      <div class="container navigation">
+
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+          <a class="navbar-brand" href="index.html">
+                    <img src="img/thanveer.png" alt="" width="150" height="40" />
+                </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#intro">Home</a></li>
+            <li><a href="service.php">Start</a></li>
+            <li><a href="#doctor">Doctors</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+               <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="about1.php" name="view_prof">How Counselling helps&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right angle_btn1"></i></a></li>
+              </ul>
+            </li>
+           <li><a href="viewprofile.php" name="view_prof">View Profile</a></li>
+             <li><a href="logout.php" onclick="return confirm('Are you sure you want to logout')">Logout</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <!-- Section: intro -->
+    <section id="intro" class="intro">
+      <div class="intro-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
+                <h2 class="h-ultra">bYOU </h2>
+              </div>
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
+                <h5 class="h-light">Provide best quality mental healthcare for you</h5>
+              </div>
+              <div class="well well-trans">
+                <div class="wow fadeInRight" data-wow-delay="0.1s">
+
+                  <ul class="lead-list">
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choose your favourite doctor</strong><br />For a faster cure</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Only use friendly environment</strong><br />For a better cure</span></li>
+                  </ul>
+                  
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-lg-6">
+              <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                <img src="img/dummy/img-1.png" class="img-responsive" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /Section: intro -->
+
+    <!-- Section: boxes -->
+    <section id="boxes" class="home-section paddingtop-80">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+                <i class="fas fa-user-check fa-3x "></i>
+                <h4 class="h-bold">Best Online Counselling and Emotional Support Platform</h4>
+                 <p>
+                  Reclaim your inner harmony, Heal your mind, Emotions & Consciousness.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+               <i class="fa fa-tags fa-3x" aria-hidden="true"></i>
+                <h4 class="h-bold">No Judgements, No mental tags</h4>
+                <p>Just Unconditional Acceptance, Support & Guidance.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+                <i class="fa fa-comments fa-3x " aria-hidden="true"></i>
+                <h4 class="h-bold">Connect with the most trusted psychologists & psychiatrists</h4>
+                <p>We understand, We care, We heal</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box text-center">
+               <i class="fa fa-smile-o fa-3x " aria-hidden="true"></i>
+                <h4 class="h-bold">A Space where you can be yourself</h4>
+                <p>
+                  Express your emotions, know your limitations
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- /Section: boxes -->
+
+
+    <section id="callaction" class="home-section paddingtop-40">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="callaction bg-gray">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="wow fadeInUp" data-wow-delay="0.1s">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section: services -->
+    <section id="service" class="home-section nopadding paddingtop-60">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-6 col-md-6">
+            <div class="wow fadeInUp" data-wow-delay="0.2s">
+              <img src="img/dummy/img-1.jpg" class="img-responsive" alt="" />
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+
+            <div class="wow fadeInRight" data-wow-delay="0.1s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fas fa-comment-alt fa-3x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Connect with your expert</h5>
+                  <p>Chat with a expert who's here to help you and not judge you.</p>
+                </div>
+              </div>
+            </div>            
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fas fa-comment-dots fa-3x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Discuss your concerns</h5>
+                  <p>Open up to your Expert in a space where you get the guidance you need, and your concerns get the attention they deserve.</p>
+                </div>
+              </div>
+            </div>
+            
+            
+
+
+          </div>
+          <div class="col-sm-3 col-md-3">
+
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                 <span class="fas fa-calendar-check fa-3x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Book Appointments</h5>
+                  <p>If not chat then meet your exert to get the guidance you need.</p>
+                </div>
+              </div>
+            </div>
+ <div class="wow fadeInRight" data-wow-delay="0.3s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fa fa-smile-beam fa-3x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light">Unleash a better you</h5>
+                  <p>With 24X7 support from our experts, bid goodbye to your old self and be on your way to becoming a better you.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: services -->
+
+    <!-- Section: team -->
+    <section id="doctor" class="home-section bg-gray paddingbot-60">
+      <div class="container marginbot-50">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="section-heading text-center">
+                <h2 class="h-bold">Doctors</h2>
+                <p>Experts with years of experience</p>
+              </div>
+            </div>
+            <div class="divider-short"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div id="filters-container" class="cbp-l-filters-alignLeft">
+              <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">Best Rated (
+                <div class="cbp-filter-counter"></div>)</div>
+              <div data-filter=".cardiologist" class="cbp-filter-item">Psychologists (
+                <div class="cbp-filter-counter"></div>)</div>
+              <div data-filter=".psychiatrist" class="cbp-filter-item">Psychiatrist (
+                <div class="cbp-filter-counter"></div>)</div>
+              <div data-filter=".neurologist" class="cbp-filter-item">Clinical Counsellors (
+                <div class="cbp-filter-counter"></div>)</div>
+            </div>
+
+            <div id="grid-container" class="cbp-l-grid-team">
+              <ul>
+                <li class="cbp-item psychiatrist">
+                  <a href="doctors/member1.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/doctors/da1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Dr Jamuna</a>
+                  <div class="cbp-l-grid-team-position">Psychiatrist</div>
+                </li>
+                <li class="cbp-item cardiologist">
+                  <a href="doctors/member2.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/doctors/da2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name">Counsellor Yukthi</a>
+                  <div class="cbp-l-grid-team-position">Psychologist</div>
+                </li>
+                <li class="cbp-item cardiologist">
+                  <a href="doctors/member3.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/doctors/ds1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Dr.  Anitha</a>
+                  <div class="cbp-l-grid-team-position">Psychologist</div>
+                </li>
+                <li class="cbp-item neurologist">
+                  <a href="doctors/member4.html" class="cbp-caption cbp-singlePage">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="img/doctors/dd1.jpg" alt="" width="100%">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                      <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name">Counsellor Priyanka</a>
+                  <div class="cbp-l-grid-team-position">Clinical Psychologist</div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- /Section: team -->
+
+
+
+
+
+    <!-- Section: works -->
+    <section id="facilities" class="home-section paddingbot-60">
+      <div class="container marginbot-50">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="section-heading text-center">
+                <h2 class="h-bold">Our facilities</h2>
+                <p>Facilites for your betterment</p>
+              </div>
+            </div>
+            <div class="divider-short"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="wow bounceInUp" data-wow-delay="0.2s">
+              <div id="owl-works" class="owl-carousel">
+                <div class="item"><a href="img/slider/p1.jpg" title="Anxiety" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg"><img src="img/slider/p1.jpg" class="img-responsive" alt="img"></a>
+                  <h4 class="h-bold" align="center">Anxiety</h4></div>
+                <div class="item"><a href="img/slider/p2.jpg" title="Depression" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/2@2x.jpg"><img src="img/slider/p2.jpg" class="img-responsive " alt="img"></a>
+                 <h4 class="h-bold" align="center">Depression</h4></div>
+                <div class="item"><a href="img/slider/p3.jpg" title="Relationship issues" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/3@2x.jpg"><img src="img/slider/p3.jpg" class="img-responsive " style="width: 265px; height: 150px;" alt="img"></a>
+                 <h4 class="h-bold" align="center">Fear of Failure</h4></div>
+                <div class="item"><a href="img/slider/p4.jpg" title="Stress Management" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/4@2x.jpg"><img src="img/slider/p4.jpg" class="img-responsive " alt="img"></a>
+                 <h4 class="h-bold" align="center">Stress Management</h4></div>
+                <div class="item"><a href="img/slider/p5.jpg" title="Anger Management" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/5@2x.jpg"><img src="img/slider/p5.jpg" class="img-responsive " alt="img"></a>
+                  <h4 class="h-bold" align="center">Anger Management</h4></div>
+                <div class="item"><a href="img/slider/p6.jpg" title="Sleep Disorder" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/6@2x.jpg"><img src="img/slider/p6.jpg" class="img-responsive " alt="img"></a>
+                  <h4 class="h-bold" align="center">Sleep Disorder</h4></div>
+                  <div class="item"><a href="img/slider/p7.jpg" title="Troubling Emotions" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/6@2x.jpg"><img src="img/slider/p7.jpg" class="img-responsive " alt="img"></a>
+                  <h4 class="h-bold" align="center">Suicidal Thoughts</h4></div>
+                  <div class="item"><a href="img/slider/p8.jpg" title="Addiction Issues" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/6@2x.jpg"><img src="img/slider/p8.jpg" class="img-responsive " alt="img"></a>
+                  <h4 class="h-bold" align="center">Addiction Issues</h4></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: works -->
+ <!-- Section: testimonial -->
+     
+    <section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
+
+      <div class="carousel-reviews broun-block">
+ 
+        <div class="container">
+          <div class="section-heading text-center">
+                <h2 class="h-bold"> <font color="black">Testimonials</h2>
+                <p>User reviews for your satisfaction</p></font>
+              </div>
+          <div class="row">
+            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Depression</a>
+                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>I found bYOU.com after reading lots of positive review about the best website . I am happy to have invested my valuable money at the right place. I assure that bYOU gives quality help on depression. I was assigned the best head therapist. He gets down to my deep core fears and addresses them in an understanding, empathetic manner. He has helped me through a very difficult time and has given very valuable, practical advice time and time again. He helps me find many solutions to one problem so that I can grow smoothly to my better self. I am grateful to know that I have his emotional and mental support.</p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/1.jpg" alt="" class="person img-circle" />
+                      <a title="" href="#">Anna</a>
+                      <span>Chicago, Illinois</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Relationship Issues</a>
+                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span>
+                        <span
+                          data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>This is my first time using an online counselling platform and I couldn’t be more glad that I took this decision to improve my mental and emotional health. The interactions with my therapist have been positive and deep. Since I started using this therapy, my husband and I have signed up for online marriage counselling together which is going very well. Even He became happy to see my progress and joined with me on bYOU.com . I have recommended this platform to many people and they really liked the help and services.</p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/2.jpg" alt="" class="person img-circle" />
+                      <a title="" href="#">Matthew G</a>
+                      <span>San Antonio, Texas</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Anxiety Issues</a>
+                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
+                      </div>
+                      <p>Initially I was sceptical about online counselling but I gave it go and was really surprised to know that It can actually help you in so many wonderful ways. I was lucky to have a great head therapist. He created a wonderfully calm, healing space where I felt safe to open up about things that I would be embarrassed to share with others. There is no judgment at all, instead he provides much-appreciated compassion followed by guidance. He is able to identify the root of my issues and exercises I can do to address them. I sometimes feel low again , but he motivates me to put me on the right track every single time. Having someone who won’t judge you is truly helpful..</p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/3.jpg" alt="" class="person img-circle" />
+                      <a title="" href="#">Scarlet Smith</a>
+                      <span>Dallas, Texas</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Life Issues</a>
+                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p> I am grateful to my therapist and bYOU for all the emergency help given to me when I needed it the most. My therapist is very thoughtful, honest, insightful. She is really helpful in relaxing my stressful mind and emotions. This is coming from a person who never wanted to do counselling and just “knew” I didn’t need it. She is very reliable and supportive, and asks great questions with what seem to be very effective suggestions and recommendations.</p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/4.jpg" alt="" class="person img-circle" />
+                      <a title="" href="#">Lucas Thompson</a>
+                      <span>Austin, Texas</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Addiction Issues</a>
+                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty">
+      
+                      </span>
+                        <span
+                          data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
+                      </div>
+                      <p>I am grateful to my therapist and bYOU for all the emergency help given to me when I needed it the most. My therapist is very thoughtful, honest, insightful. She is really helpful in relaxing my stressful mind and emotions. This is coming from a person who never wanted to do counselling and just “knew” I didn’t need it. She is very reliable and supportive, and asks great questions with what seem to be very effective suggestions and recommendations.</p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/5.jpg" alt="" class="person img-circle" />
+                      <a title="" href="#">Ella Mentree</a>
+                      <span>Fort Worth, Texas</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+                    <div class="block-text rel zmin">
+                      <a title="" href="#">Sleep Disorder</a>
+                      <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
+                          class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
+                      </div>
+                      <p>This is my first time using an online counselling platform and I couldn’t be more glad that I took this decision to improve my mental and emotional health. The interactions with my therapist have been positive and deep. Since I started using this therapy, my husband and I have signed up for online marriage counselling together which is going very well. Even He became happy to see my progress and joined with me on bYOU.com . I have recommended this platform to many people and they really liked the help and services.</p>
+                      <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+                    </div>
+                    <div class="person-text rel text-light">
+                      <img src="img/testimonials/6.jpg" alt="" class="person img-circle" />
+                      <a title="" href="#">Suzanne Adam</a>
+                      <span>Detroit, Michigan</span>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+              <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: testimonial -->
+    <footer>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>About bYOU</h5>
+                <p>
+                 bYOU is the best online counseling and therapy site.
+                </p>
+              </div>
+            </div>
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Information</h5>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Doctors</a></li>
+                  <li><a href="#">Report a Problem</a></li>
+                  <li><a href="#">Terms & conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>bYOU center</h5>
+                <p>
+                  For a face to face contact
+                </p>
+                <ul>
+                  <li>
+                    <span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
+								</span> Monday - Saturday, 8am to 10pm
+                  </li>
+                  <li>
+                    <span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+								</span> +91 1234567890
+                  </li>
+                  <li>
+                    <span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+								</span> byou@gmail.com
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Our location</h5>
+                <p>VIT University, Vellore-632014</p>
+
+              </div>
+            </div>
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <div class="widget">
+                <h5>Follow us</h5>
+                <ul class="company-social">
+                  <li class="social-facebook"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li class="social-google"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                  <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo-square"></i></a></li>
+                  <li class="social-dribble"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="text-left">
+                  <p>&copy;Copyright - bYOU.com. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="wow fadeInRight" data-wow-delay="0.1s">
+                <div class="text-right">
+                  <div class="credits">
+                    <!--
+                      All the links in the footer should remain intact. 
+                      You can delete the links only if you purchased the pro version.
+                      Licensing information: https://bootstrapmade.com/license/
+                      Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medicio
+                    -->
+                    Designed by bYOU.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
